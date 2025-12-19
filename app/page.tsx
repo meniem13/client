@@ -14,7 +14,7 @@ const page = () => {
 
       console.log("Server data:", response.data);
     } catch (error) {
-      console.error("Error fetching data:", error.message || error);
+      console.error(error);
     }
   }
   return (
